@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&display=swap');
+
+.page {
+  background-image: url('/backgroudHome.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom -3rem;
+}
+
+.maxcontainer {
+  padding: 0 4rem;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+  height: calc(100vh - 60px);
+  width: 100%;
+  display: flex;
+}
+
+.textsColum {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.myh1 {
+  font-weight: 400;
+  font-size: 12rem;
+  color: #009502;
+}
+
+.myh1 span {
+  color: #1c231e;
+}
+
+.myh2 {
+  position: relative;
+  top: 4rem;
+  color: #1c231e;
+  font-weight: 400;
+  margin-left: 5rem;
+  font-size: 35px;
+  align-self: flex-start;
+}
+
+.myp {
+  font-family: "Questrial", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.7rem;
+  position: relative;
+  top: -3rem;
+  margin-left: 0.5rem;
+  width: 32.5rem;
+}
+
+.myp2 {
+  font-family: "Questrial", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2.5rem;
+  position: relative;
+  top: -3rem;
+  margin-left: 0.5rem;
+  width: 32.5rem;
+}
+
+.myButton {
+  font-family: "Questrial", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2.5rem;
+  height: 7rem;
+  margin-left: 0.5rem;
+  width: 27rem;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  background-color: #1c231e;
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Adicionando transição */
+}
+
+.myButton:hover {
+  transform: translateY(-5px); /* Movimento para cima para dar o efeito de flutuação */
+  background-color: #009502; /* Mudando a cor de fundo ao passar o mouse */
+}
+
+/* Media Query para telas menores que 1500px (telas de desktop médios) */
+@media (max-width: 1920px) {
+  .maxcontainer {
+    padding: 0 2rem; /* Reduz a margem para telas menores */
+  }
+
+  .myh1 {
+    font-size: 10rem; /* Ajuste o tamanho da fonte */
+  }
+
+  .myh2 {
+    font-size: 30px;
+    margin-left: 4rem;
+    top: 3rem; /* Ajuste o deslocamento do .myh2 */
+  }
+
+  .myp {
+    font-size: 1.5rem; /* Reduz o tamanho da fonte */
+    width: 28rem; /* Ajuste a largura */
+  }
+
+  .myp2 {
+    font-size: 2rem; /* Ajuste o tamanho da fonte */
+    width: 28rem;
+  }
+
+  .myButton {
+    font-size: 2rem;
+    height: 6rem;
+    width: 20rem;
+  }
+}
+
+/* Media Query para telas menores que 992px (tablets e telas pequenas) */
+@media (max-width: 992px) {
+  .maxcontainer {
+    padding: 0 1.5rem;
+  }
+
+  .myh1 {
+    font-size: 8rem; /* Ajuste o tamanho da fonte */
+  }
+
+  .myh2 {
+    font-size: 25px;
+    margin-left: 2rem;
+    top: 2rem;
+  }
+
+  .myp {
+    font-size: 1.4rem;
+    width: 22rem;
+  }
+
+  .myp2 {
+    font-size: 1.8rem;
+    width: 22rem;
+  }
+
+  .myButton {
+    font-size: 1.8rem;
+    height: 5rem;
+    width: 18rem;
+  }
+}
+
+/* Media Query para telas menores que 768px (smartphones em modo paisagem ou dispositivos pequenos) */
+@media (max-width: 768px) {
+  .maxcontainer {
+    padding: 0 1rem; /* Menos padding em telas menores */
+  }
+
+  .myh1 {
+    font-size: 6rem; /* Reduzindo ainda mais o tamanho da fonte */
+  }
+
+  .myh2 {
+    font-size: 22px;
+    margin-left: 1rem;
+    top: 1.5rem;
+  }
+
+  .myp {
+    font-size: 1.3rem;
+    width: 20rem;
+  }
+
+  .myp2 {
+    font-size: 1.6rem;
+    width: 20rem;
+  }
+
+  .myButton {
+    font-size: 1.6rem;
+    height: 4rem;
+    width: 16rem;
+  }
+}
+
+/* Media Query para telas menores que 576px (dispositivos móveis) */
+@media (max-width: 576px) {
+  .maxcontainer {
+    padding: 0 0.5rem; /* Menos padding em telas muito pequenas */
+  }
+
+  .myh1 {
+    font-size: 5rem; /* Fontes menores para telas muito pequenas */
+  }
+
+  .myh2 {
+    font-size: 18px;
+    margin-left: 1rem;
+    top: 1rem;
+  }
+
+  .myp {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  .myp2 {
+    font-size: 1.4rem;
+    width: 100%;
+  }
+
+  .myButton {
+    font-size: 1.4rem;
+    height: 4rem;
+    width: 14rem;
+  }
+}

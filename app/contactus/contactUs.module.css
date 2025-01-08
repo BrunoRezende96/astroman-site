@@ -1,0 +1,27 @@
+
+
+.myMain{
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-image: url("/contactsbackground.png");
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    background-size: cover;
+}
+
+.title{
+    width: 100%;
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    color:  #1c231e;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    height: 10rem;
+}
+
+.contactsIcons{
+    width: 100%;
+}
