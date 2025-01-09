@@ -1,4 +1,3 @@
-import ServiceList from "./ServiceList";
 import Button from "./buttons";
 import styles from "./card.module.css";
 import Link from "next/link";
